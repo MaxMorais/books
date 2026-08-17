@@ -47,7 +47,7 @@ export interface SelectFileReturn {
   name: string;
   filePath: string;
   success: boolean;
-  data: Buffer;
+  data: Uint8Array;
   canceled: boolean;
 }
 

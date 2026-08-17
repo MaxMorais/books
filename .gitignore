@@ -2,6 +2,7 @@
 node_modules
 /dbs
 /dist
+/dist_web
 /notebook
 
 # local env files

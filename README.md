@@ -121,6 +121,16 @@ To run Frappe Books in development mode (with hot reload, etc):
 yarn dev
 ```
 
+To serve Frappe Books in a browser without Electron:
+
+```bash
+yarn web
+```
+
+This builds the web client and starts a local-only server at
+`http://127.0.0.1:8080`. SQLite data and uploaded database files remain on the
+same machine as the server.
+
 **Note: First Boot**
 
 When you run `yarn dev` electron will run immediately but the UI will take a
